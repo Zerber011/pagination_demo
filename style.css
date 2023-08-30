@@ -1,0 +1,73 @@
+/* ------------------------ */
+/* MAIN COL0R #087F5B */
+/* TEXT COLOR #343A40 */
+/* ------------------------ */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1.2;
+  /* It's always better solution to center 'pagination' instead of 'body' */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.button {
+  border: 1px solid #087f5b;
+  /* width & height need to be perfect circle */
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  /* In order to move any background-colors */
+  background: none;
+}
+
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.btn-icon:hover {
+  background-color: #087f5b;
+}
+
+.page-link:link,
+.page-link:visited {
+  font-size: 18px;
+  color: #343a40;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.current {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #087f5b;
+}
+
+.button:hover .btn-icon {
+  stroke: #fff;
+}
+
+.dots {
+  color: #868e96;
+}
